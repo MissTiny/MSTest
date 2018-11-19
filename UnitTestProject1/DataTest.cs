@@ -79,9 +79,7 @@ namespace UnitTestProject1
                     return string.Format(CultureInfo.CurrentCulture, "Custom - {0} ({1})", methodInfo.Name,
                         string.Join(",", data));
                 return null;
-            }
-
-            
+            }       
         }
     }
 }
